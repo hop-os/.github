@@ -6,6 +6,16 @@ An operating system written in Rust, a small orchestrator and a distributed desk
 
 [Website](https://gethop.org) · [Documentation](https://gethop.org/hopos/docs/) · [Get in touch](mailto:hello@gethop.org)
 
+### Get started with HopOS Imager
+
+**[HopOS Imager](https://github.com/hop-os/hop-imager)** is the easy way to get a node running: one desktop app to **write an image, configure your board and find your nodes**. No terminal needed.
+
+1. **Burn** — choose a release and board, then write and verify your SD card or USB stick.
+2. **Configure** — set the node name, cluster and startup jobs.
+3. **Find** — discover your nodes on the network.
+
+**[Download HopOS Imager](https://github.com/hop-os/hop-imager/releases/latest)** · [See how it works](https://github.com/hop-os/hop-imager#readme)
+
 ### Start with the piece you need
 
 | Project | Its job | Explore |
@@ -16,7 +26,6 @@ An operating system written in Rust, a small orchestrator and a distributed desk
 
 ### Around the core
 
-- **[HopOS Imager](https://github.com/hop-os/hop-imager)** — burn images, configure boards and discover your nodes.
 - **[hoplock](https://github.com/hop-os/hoplock)** — lease-based leader election backed by S3 conditional writes.
 - **[hopqueue](https://github.com/hop-os/hopqueue)** — a single-binary job queue with SQLite, HTTP/SSE and S3 leader election.
 
